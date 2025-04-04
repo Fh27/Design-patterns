@@ -3,7 +3,6 @@ package com.design_Prototype;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("creating new obj");
-
         NetworkConnection networkConnection=new NetworkConnection();
         networkConnection.setIp("1.344.5555");
         networkConnection.loadVeryImpData();
